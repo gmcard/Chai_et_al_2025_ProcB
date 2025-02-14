@@ -2054,76 +2054,76 @@ yticklabels(["","","","",""])
 % Order is xDL, xWeak Kir, xStrong Kir
 
 
-load(fullfile(pwd, 'FlyPEZ Data\0038000015110253_dataForVisualization.mat'))
-load(fullfile(pwd, 'FlyPEZ Data\0038000015110253_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015110253_dataForVisualization.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015110253_manualAnnotations.mat'))
 graphTable1 = join(graphTable,manualAnnotations,'Keys','Row');
-load(fullfile(pwd, 'FlyPEZ Data\0038000015110321_dataForVisualization.mat')) 
-load(fullfile(pwd, 'FlyPEZ Data\0038000015110321_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015110321_dataForVisualization.mat')) 
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015110321_manualAnnotations.mat'))
 graphTable2 = join(graphTable,manualAnnotations,'Keys','Row');
 GF1DL10 = vertcat(graphTable1,graphTable2);
 
-load(fullfile(pwd, 'FlyPEZ Data\0038000015110252_dataForVisualization.mat')) 
-load(fullfile(pwd, 'FlyPEZ Data\0038000015110252_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015110252_dataForVisualization.mat')) 
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015110252_manualAnnotations.mat'))
 graphTable1 = join(graphTable,manualAnnotations,'Keys','Row');
-load(fullfile(pwd, 'FlyPEZ Data\0038000015110322_dataForVisualization.mat'))
-load(fullfile(pwd, 'FlyPEZ Data\0038000015110322_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015110322_dataForVisualization.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015110322_manualAnnotations.mat'))
 graphTable2 = join(graphTable,manualAnnotations,'Keys','Row');
 GF1DL40 = vertcat(graphTable1,graphTable2);
 
-load(fullfile(pwd, 'FlyPEZ Data\0038000002250253_dataForVisualization.mat'))
-load(fullfile(pwd, 'FlyPEZ Data\0038000002250253_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000002250253_dataForVisualization.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000002250253_manualAnnotations.mat'))
 graphTable1 = join(graphTable,manualAnnotations,'Keys','Row');
-load(fullfile(pwd, 'FlyPEZ Data\0038000002250321_dataForVisualization.mat'))
-load(fullfile(pwd, 'FlyPEZ Data\0038000002250321_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000002250321_dataForVisualization.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000002250321_manualAnnotations.mat'))
 graphTable2 = join(graphTable,manualAnnotations,'Keys','Row');
 GF1Gal10 = vertcat(graphTable1,graphTable2);
 
-load(fullfile(pwd, 'FlyPEZ Data\0038000002250252_dataForVisualization.mat'))
-load(fullfile(pwd, 'FlyPEZ Data\0038000002250252_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000002250252_dataForVisualization.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000002250252_manualAnnotations.mat'))
 graphTable1 = join(graphTable,manualAnnotations,'Keys','Row');
-load(fullfile(pwd, 'FlyPEZ Data\0038000002250322_dataForVisualization.mat'))
-load(fullfile(pwd, 'FlyPEZ Data\0038000002250322_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000002250322_dataForVisualization.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000002250322_manualAnnotations.mat'))
 graphTable2 = join(graphTable,manualAnnotations,'Keys','Row');
 GF1Gal40 = vertcat(graphTable1,graphTable2);
 
-load(fullfile(pwd, 'FlyPEZ Data\0038000002240253_dataForVisualization.mat'))
-load(fullfile(pwd, 'FlyPEZ Data\0038000002240253_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000002240253_dataForVisualization.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000002240253_manualAnnotations.mat'))
 graphTable1 = join(graphTable,manualAnnotations,'Keys','Row');
-load(fullfile(pwd, 'FlyPEZ Data\0038000002240321_dataForVisualization.mat'))
-load(fullfile(pwd, 'FlyPEZ Data\0038000002240321_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000002240321_dataForVisualization.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000002240321_manualAnnotations.mat'))
 graphTable2 = join(graphTable,manualAnnotations,'Keys','Row');
 GF1Kir10 = vertcat(graphTable1,graphTable2);
 
-load(fullfile(pwd, 'FlyPEZ Data\0038000002240252_dataForVisualization.mat'))
-load(fullfile(pwd, 'FlyPEZ Data\0038000002240252_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000002240252_dataForVisualization.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000002240252_manualAnnotations.mat'))
 graphTable1 = join(graphTable,manualAnnotations,'Keys','Row');
-load(fullfile(pwd, 'FlyPEZ Data\0038000002240322_dataForVisualization.mat'))
-load(fullfile(pwd, 'FlyPEZ Data\0038000002240322_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000002240322_dataForVisualization.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000002240322_manualAnnotations.mat'))
 graphTable2 = join(graphTable,manualAnnotations,'Keys','Row');
 GF1Kir40 = vertcat(graphTable1,graphTable2);
 
-load(fullfile(pwd, 'FlyPEZ Data\0038000015190253_dataForVisualization.mat'))
-load(fullfile(pwd, 'FlyPEZ Data\0038000015190253_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015190253_dataForVisualization.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015190253_manualAnnotations.mat'))
 GF2DL10 = join(graphTable,manualAnnotations,'Keys','Row');
 
-load(fullfile(pwd, 'FlyPEZ Data\0038000015190252_dataForVisualization.mat'))
-load(fullfile(pwd, 'FlyPEZ Data\0038000015190252_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015190252_dataForVisualization.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015190252_manualAnnotations.mat'))
 GF2DL40 = join(graphTable,manualAnnotations,'Keys','Row');
 
-load(fullfile(pwd, 'FlyPEZ Data\0038000015180253_dataForVisualization.mat'))
-load(fullfile(pwd, 'FlyPEZ Data\0038000015180253_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015180253_dataForVisualization.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015180253_manualAnnotations.mat'))
 GF2Kir10 = join(graphTable,manualAnnotations,'Keys','Row');
 
-load(fullfile(pwd, 'FlyPEZ Data\0038000015180252_dataForVisualization.mat'))
-load(fullfile(pwd, 'FlyPEZ Data\0038000015180252_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015180252_dataForVisualization.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015180252_manualAnnotations.mat'))
 GF2Kir40 = join(graphTable,manualAnnotations,'Keys','Row');
 
-load(fullfile(pwd, 'FlyPEZ Data\0038000015210253_dataForVisualization.mat'))
-load(fullfile(pwd, 'FlyPEZ Data\0038000015210253_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015210253_dataForVisualization.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015210253_manualAnnotations.mat'))
 empKir10 = join(graphTable,manualAnnotations,'Keys','Row');
 
-load(fullfile(pwd, 'FlyPEZ Data\0038000015210252_dataForVisualization.mat'))
-load(fullfile(pwd, 'FlyPEZ Data\0038000015210252_manualAnnotations.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015210252_dataForVisualization.mat'))
+load(fullfile(pwd, 'FlyPEZ Data',filesep,'0038000015210252_manualAnnotations.mat'))
 empKir40 = join(graphTable,manualAnnotations,'Keys','Row');
 
 GF1X = [1 2 3];
