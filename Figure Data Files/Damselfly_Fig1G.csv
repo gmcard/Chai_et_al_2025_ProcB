@@ -1,0 +1,32 @@
+Wing-clipping Bias Control Genotypes,WCB,,,Genotype Matchup,PCI
+GF1>+,1,,,GF1>+ vs GF1>Kir2.1;Gal80ts,0.19
+GF1>+,0.14,,,GF1>+ vs GF1>Kir2.1;Gal80ts,0.5
+GF1>+,-0.17,,,GF1>+ vs GF1>Kir2.1;Gal80ts,0.4
+GF1>+,-0.33,,,GF1>+ vs GF1>Kir2.1;Gal80ts,0.04
+GF1>+,-0.29,,,GF1>+ vs GF1>Kir2.1;Gal80ts,0.3
+GF1>+,-0.11,,,GF1>+ vs GF1>Kir2.1;Gal80ts,0.16
+GF1>+,0.05,,,GF1>+ vs GF1>Kir2.1;Gal80ts,0.04
+GF1>+,-0.6,,,GF1>+ vs GF1>Kir2.1;Gal80ts,0.6
+GF1>+,-0.47,,,GF1>+ vs GF1>Kir2.1,0.31
+GF1>Kir2.1,0.13,,,GF1>+ vs GF1>Kir2.1,0.29
+GF1>Kir2.1,0,,,GF1>+ vs GF1>Kir2.1,0.07
+GF1>Kir2.1,0.12,,,GF1>+ vs GF1>Kir2.1,0.5
+GF1>Kir2.1,0.12,,,GF1>+ vs GF1>Kir2.1,0.68
+GF1>Kir2.1,0,,,GF1>+ vs GF1>Kir2.1,0.39
+GF1>Kir2.1,-0.33,,,GF1>+ vs GF1>Kir2.1,0.75
+GF1>Kir2.1; Gal80ts,0.3,,,GF1>+ vs GF1>Kir2.1,0.45
+GF1>Kir2.1; Gal80ts,-0.05,,,GF1>+ vs GF1>Kir2.1,1
+GF1>Kir2.1; Gal80ts,0.04,,,GF1>+ vs GF1>Kir2.1,0.13
+GF1>Kir2.1; Gal80ts,0.06,,,GF1>+ vs GF1>Kir2.1,0.33
+GF1>Kir2.1; Gal80ts,-0.07,,,GF1>+ vs GF1>Kir2.1,0.45
+GF1>Kir2.1; Gal80ts,-0.03,,,GF1>+ vs GF1>Kir2.1,-0.08
+GF1>Kir2.1; Gal80ts,0.38,,,GF1>+ vs GF1>Kir2.1,0.25
+GF2>+,0.1,,,GF1>+ vs GF1>Kir2.1,0.43
+GF2>+,0.39,,,GF2>+ vs GF2>Kir2.1,0.23
+GF2>+,0.09,,,GF2>+ vs GF2>Kir2.1,0.29
+GF2>+,-0.03,,,GF2>+ vs GF2>Kir2.1,0.71
+GF2>Kir2.1,0.23,,,GF2>+ vs GF2>Kir2.1,0.28
+GF2>Kir2.1,0.04,,,GF2>+ vs GF2>Kir2.1,0.38
+GF2>Kir2.1,-0.56,,,GF2>+ vs GF2>Kir2.1,0.33
+GF2>Kir2.1,-0.08,,,GF2>+ vs GF2>Kir2.1,0.75
+,,,,GF2>+ vs GF2>Kir2.1,1
