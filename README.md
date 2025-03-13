@@ -96,55 +96,55 @@ Damselfly speed (m/s) throughout attack time course for predation events that re
 ## Damselfly_Fig3A-Acceleration.csv 
 Damselfly acceleration (m/s^2) throughout attack time course for predation events that resulted in fly capture or escape for flies with functional (GF1>+) or silenced GFs (GF1>Kir2.1). Columns A to J are for predation events resulting in GF1>+ flies being captured (n=5 damselflies, Time (ms) and Acceleration (m/s^2) values for each damselfly are reported in adjacent columns). Columns L to AK are for predation events resulting in GF1>Kir2.1 flies being captured (n=13 damselflies, Time (ms) and Acceleration (m/s^2) values for each damselfly are reported in adjacent columns). Columns AM to AZ are for predation events resulting in GF1>+ flies escaping (n=7 damselflies, Time (ms) and Acceleration (m/s^2) values for each damselfly are reported in adjacent columns). Columns BB to BM are for predation events resulting in GF1>Kir2.1 flies escaping (n=6 damselflies, Time (ms) and Acceleration (m/s^2) values for each damselfly are reported in adjacent columns). Time= 0 ms is the time of either fly prey capture or escape.
 
-#Damselfly_Fig3A-n.csv
+## Damselfly_Fig3A-n.csv
 Number of predation events contributing to each time point for predation events that resulted in fly capture or escape for flies with functional (GF1>+) or silenced GFs (GF1>Kir2.1). Columns A to B are for predation events resulting in GF1>+ flies being captured (Time (ms) and Number of predation events at each timepoint n are reported in adjacent columns, total number of damselflies=5). Columns D to E are for predation events resulting in GF1>Kir2.1 flies being captured (Time (ms) and Number of predation events at each timepoint n are reported in adjacent columns, total number of damselflies=13). Columns G to H are for predation events resulting in GF1>+ flies escaping (Time (ms) and Number of predation events at each timepoint n are reported in adjacent columns, total number of damselflies=7). Columns J to K are for predation events resulting in GF1>Kir2.1 flies escaping (Time (ms) and Number of predation events at each timepoint n are reported in adjacent columns, total number of damselflies=6). Time= 0 ms is the time of either fly prey capture or escape.
 
-#Damselfly_Fig3B.csv
+## Damselfly_Fig3B.csv
 Damselfly peak speeds (m/s) during predation events that resulted in fly capture (Column A to B) or escape (Column C to D) for flies with functional (GF1>+) or silenced GFs (GF1>Kir2.1).
 
-#Damselfly_Fig3C.csv
+## Damselfly_Fig3C.csv
 Damselfly peak accelerations (m/s^2) during predation events that resulted in fly capture (Column A to B) or escape (Column C to D) for flies with functional (GF1>+) or silenced GFs (GF1>Kir2.1). 
 
-#Damselfly_Fig3D.csv
+## Damselfly_Fig3D.csv
 Percentages of flies (%) with functional (GF1>+) or silenced GFs (GF1>Kir2.1) that escaped damselfly attacks with peak speeds slower or faster than 0.167 m/s.
 
-#Damselfly_Fig3E.csv
+## Damselfly_Fig3E.csv
 Peak damselfly speed (m/s) was binned with the center bin value reported in Column A. Column B and C are the number of damselflies in each peak speed bin for the GF>+ and GF1>Kir2.1 cases respectively. 
 
-#Damselfly_Fig3F.csv
+## Damselfly_Fig3F.csv
 Angular sizes of damselflies on fly’s retina (°) at time of capture or escape for predation events that resulted in fly capture (Column A to B) or escape (Column C to D) for flies with functional (GF1>+) or silenced GFs (GF1>Kir2.1). Column headings denote fly genotype (GF1>+ or GF1>Kir2.1) and predation event outcome (fly capture or fly escape) combination.
 
-#Damselfly_Fig4A.csv
+## Damselfly_Fig4A.csv
 Loom angular sizes (°) throughout stimulus expansion time course in milliseconds (ms) in the FlyPEZ for different stimulus looming speeds (r/v=40: Columns A to B and r/v=10: Columns D to E).
 
-#Damselfly_Fig4B.csv
+## Damselfly_Fig4B.csv
 Time (ms) after start of looming stimulus expansion at which fly executed wing lift and takeoff behaviors for different looming stimulus speeds in the FlyPEZ for flies with functional (GF1>+) or silenced GFs (GF1>Kir2.1). Columns A and B are time of wing lift (ms) and takeoff (ms) for GF1>+ flies challenged with looming stimulus speed r/v=40. Columns D and E are time of wing lift (ms) and takeoff (ms) for GF1>+ flies challenged with looming stimulus speed r/v=10. Columns G and H are time of wing lift (ms) and takeoff (ms) for GF1>Kir2.1 flies challenged with looming stimulus speed r/v=40. Columns J and K are time of wing lift (ms) and takeoff (ms) for GF1>Kir2.1 flies challenged with looming stimulus speed r/v=10. Each row represents behavior time points for an individual fly.
 
-#Damselfly_Fig4C.csv
+## Damselfly_Fig4C.csv
 Fly reaction times (ms) for different looming stimulus speeds (r/v=40: Columns A to B and r/v=10: Columns C to D) in the FlyPEZ for flies with functional (GF1>+) or silenced GFs (GF1>Kir2.1). Column headings denote looming stimulus speed (r/v=40 or r/v=10) and fly genotype (GF1>+ or GF1>Kir2.1) combination. Each row represents the reaction time for an individual fly.
 
-#Damselfly_Fig4D.csv
+## Damselfly_Fig4D.csv
 Fly latencies (ms) to the end of the takeoff sequence for different looming stimulus speeds (r/v=40: Columns A to B and r/v=10: Columns C to D) in the FlyPEZ for flies with functional (GF1>+) or silenced GFs (GF1>Kir2.1). Column headings denote looming stimulus speed (r/v=40 or r/v=10) and fly genotype (GF1>+ or GF1>Kir2.1) combination. Each row represents the latency to the end of the takeoff sequence for an individual fly.
 
-#Damselfly_FigS1C.csv
+## Damselfly_FigS1C.csv
 Wing-Clipping Bias (WCB) index scores for different fly genotypes (GF1>+, GF1>Kir2.1, GF1>Kir2.1;Gal80ts, GF2>+, GF2>Kir2.1). Index values are unitless. 
 
-#Damselfly_FigS2A.csv
+## Damselfly_FigS2A.csv
 Elevation angles (°) of damselflies relative to fly prey throughout attack time course for predation events that resulted in fly capture or escape for flies with functional (GF1>+) or silenced GFs (GF1>Kir2.1). Columns A to J are for predation events resulting in GF1>+ flies being captured (n=5 damselflies, Time (ms) and Elevation angle (°) values for each damselfly are reported in adjacent columns). Columns L to AK are for predation events resulting in GF1>Kir2.1 flies being captured (n=13 damselflies, Time (ms) and Elevation angle (°) values for each damselfly are reported in adjacent columns). Columns AM to AZ are for predation events resulting in GF1>+ flies escaping (n=7 damselflies, Time (ms) and Elevation angle (°) values for each damselfly are reported in adjacent columns). Columns BB to BM are for predation events resulting in GF1>Kir2.1 flies escaping (n=6 damselflies, Time (ms) and Elevation angle (°) values for each damselfly are reported in adjacent columns). Time= 0 ms is the time of either fly prey capture or escape.
 
-#Damselfly_FigS2B.csv
+## Damselfly_FigS2B.csv
 Azimuth angles (°) of damselflies relative to fly prey throughout attack time course for predation events that resulted in fly capture or escape for flies with functional (GF1>+) or silenced GFs (GF1>Kir2.1). Columns A to J are for predation events resulting in GF1>+ flies being captured (n=5 damselflies, Time (ms) and Azimuth angle (°) values for each damselfly are reported in adjacent columns). Columns L to AK are for predation events resulting in GF1>Kir2.1 flies being captured (n=13 damselflies, Time (ms) and Azimuth angle (°) values for each damselfly are reported in adjacent columns). Columns AM to AZ are for predation events resulting in GF1>+ flies escaping (n=7 damselflies, Time (ms) and Azimuth angle (°) values for each damselfly are reported in adjacent columns). Columns BB to BM are for predation events resulting in GF1>Kir2.1 flies escaping (n=6 damselflies, Time (ms) and Azimuth angle (°) values for each damselfly are reported in adjacent columns). Time= 0 ms is the time of either fly prey capture or escape.
 
-#Damselfly_FigS2C.csv
+## Damselfly_FigS2C.csv
 Number of predation events contributing to each time point throughout attack time course for predation events that resulted in fly capture or escape for flies with functional (GF1>+) or silenced GFs (GF1>Kir2.1). Columns A to B are for predation events resulting in GF1>+ flies being captured (Time (ms) and Number of predation events at each timepoint n are reported in adjacent columns, total number of damselflies=5). Columns D to E are for predation events resulting in GF1>Kir2.1 flies being captured (Time (ms) and Number of predation events at each timepoint n are reported in adjacent columns, total number of damselflies=13). Columns G to H are for predation events resulting in GF1>+ flies escaping (Time (ms) and Number of predation events at each timepoint n are reported in adjacent columns, total number of damselflies=7). Columns J to K are for predation events resulting in GF1>Kir2.1 flies escaping (Time (ms) and Number of predation events at each timepoint n are reported in adjacent columns, total number of damselflies=6). Time= 0 ms is the time of either fly prey capture or escape.
 
-#Damselfly_FigS3A.csv
+## Damselfly_FigS3A.csv
 Damselfly approach speeds (m/s) throughout attack time course for predation events ending in GF1>Kir2.1 fly capture. Columns A to N are for predation events with peak speeds that are <0.167 m/s (n=7 damselflies, Time (ms) and Speed (m/s) values for each damselfly are reported in adjacent columns). Columns P to AA are for predation events with peak speeds that are >0.167 m/s (n=6 damselflies, Time (ms) and Speed (m/s) values for each damselfly are reported in adjacent columns). Time= 0 ms is the time of fly prey capture.
 
-#Damselfly_FigS3B.csv
+## Damselfly_FigS3B.csv
 Distances between damselflies and flies (mm) at time of capture or escape for predation events that resulted in fly capture (Column A to B) or escape (Column C to D) for flies with functional (GF1>+) or silenced GFs (GF1>Kir2.1). Column headings denote fly genotype (GF1>+ or GF1>Kir2.1) and predation event outcome (fly capture or fly escape) combination.
 
-#Damselfly_FigS3C.csv
+## Damselfly_FigS3C.csv
 Damselfly head widths in millimeters (mm).
 
 
@@ -161,5 +161,5 @@ The main analysis script that generates all plots in the paper figures
 ---
 
 
-## Contact Information
+# Contact Information
 
