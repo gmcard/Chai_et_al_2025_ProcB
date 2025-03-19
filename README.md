@@ -48,13 +48,24 @@ Chai_et_al_2025_ProcB/
 │
 ├── golayDifferentiate.m            # Support function that filters data and calculates differentials         
 │
-├── padcat.m                        # Support function that concatenate vectors with different lengths by padding with NaN
+├── padcat.m                        # Support function that concatenates vectors with different lengths by padding with NaN
 │
 └── shadedErrorBar.m                # Support function that generates error bars around a line plot
 
 ```
+# Analysis
 
-# Data Files
+## Time/Time_data.xlsx
+
+## Time_fps/Time_data.xlsx
+
+## *Predation_data_xyzpts.csv
+
+# Box Analysis
+
+## *FlyAxis_data_xyzpts.csv
+
+# Figure Data Files
 
 ## Damselfly_Fig1B.csv
 Percentages (%) of flies assayed that took off upon stimulus presentation in the FlyPEZ for different looming stimulus speeds for each GF-specific split-GAL4 driver pairing. Column headings denote GF-specific split-GAL4 driver (GF1> or GF2>) and stimulus looming speed (r/v=40 or r/v=10) combination. Row headings denote UAS effector lines (DL wild-type +, Kir2.1;Gal80ts, or Kir2.1) that were crossed to split-GAL4 driver lines denoted in column headings. 
@@ -148,18 +159,48 @@ Distances between damselflies and flies (mm) at time of capture or escape for pr
 Damselfly head widths in millimeters (mm).
 
 
+# FlyPEZ Data
+
+This folder contains files from many flyPEZ experiments, but there are two general file types, `*_dataForVisualization.mat` and `*_manualAnnotations.mat` which are prepended with experiment ID codes specific to the flyPEZ data organization structure. 
+
+## *_dataForVisualization.mat
+MATLAB structure that results from a flyPEZ data processing pipeline. It contains variables used in common flyPEZ analyses. Relevant variables for this project are: manualJumpTest, a manual annotation of whether a fly took off (1), or did not take off (0), and stimStart, the frame number the looming stimulus began. 
+
+## *_manualAnnotations.mat
+MATLAB structure that contains manual annotation data from flyPEZ experiments related to takeoff timing. Relevant variables for this project are: frame_of_wing_movement, and frame_of_leg_push, frame_of_take_off. These capture the frame number at which the fly first moved its wings in preparation of takeoff, first started pushing off with its legs, and lifted its legs from the platform, respectively. These variables were used in this project in combination with stimStart from `*_dataForVisualization.mat` to calculate takeoff timing parameters.
+
+
 # Scripts Overview
 
 ## 1. `Damselfly_analysis`
 The main analysis script that generates all plots in the paper figures 
 
 - **Inputs and Outputs**:
-
+    - Inputs: Fruit fly and damselfly tracked positions, time series information, flyPEZ data
+    - Outputs: Paper figure plots
 
 - **Dependencies**:
+    - `align_axislabel.m`: Aligns axes labels to axes in 3D plots              
+    - `axislabel_translation.m`: Controls distance between axes labels and axes               
+    - `axislabel_translation_slider.m`: Enables dynamic manipulation of `axislabel_translation.m`              
+    - `circ_mean.m`: Computes the mean direction for circular data    
+    - `get_error_bars.m`: Computes the Wilson Score Interval for binary data
+    - `golayDifferentiate.m`: Filters data and calculates differentials         
+    - `padcat.m`: Concatenates vectors with different lengths by padding with NaN
+    - `shadedErrorBar.m`: Generates error bars around a line plot
 
 ---
 
 
-# Contact Information
+# Author and Contact Information
+AUTHORS: Cynthia M. Chai [1,2], Carmen M. Morrow [1], Dhyey D. Parikh [1], Catherine R. von Reyn [1,3], Anthony Leonardo [1,4], Gwyneth M. Card [1,5,6,*]
+
+AFFILIATIONS:
+1 Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA
+2 Current address: Department of Biological Sciences, Columbia University, New York, NY, USA
+3 Current address: School of Biomedical Engineering, Science & Health Systems, Drexel University, Philadelphia, PA, USA 
+4 Current address: Wispr, 444 Townsend St, San Francisco, CA
+5 Current address: Mortimer B. Zuckerman Mind Brain Behavior Institute, Columbia University, New York, NY, USA
+6 Current address: Howard Hughes Medical Institute, Chevy Chase, MD, USA 
+* Corresponding author: gc3017@columbia.edu (G.M.C.)
 
