@@ -15,7 +15,7 @@ Chai_et_al_2025_ProcB/
 ├── Analysis/                       # Contains time and tracking data
 │   ├── Time of Contact                       
 │       └── Time 
-│           └── Time_data.xlsx      # Time stamp for either contract or escape in each event 
+│           └── Time_data.xlsx      # Time stamp for either contact or escape in each event 
 │   ├── Time_fps              
 │       └── Time 
 │           └── Time_data.xlsx      # Time matrix corresponding to tracked points
@@ -55,17 +55,31 @@ Chai_et_al_2025_ProcB/
 ```
 # Analysis
 
-## Time/Time_data.xlsx
+## Time of Contact/Time/Time_data.xlsx
+Time from start of predation event until fly escape or capture by damselfly for all predation attempts analyzed (n=31). Column A is the time until fly escape or capture in seconds (ms), Column C is a constant (1000) used to convert between milliseconds and seconds, and Column E is the time until fly escape or capture in milliseconds (s).
 
-## Time_fps/Time_data.xlsx
+## Time_fps/Time/Time_data.xlsx
+Time matrix used for video analysis. Column A is time in seconds (s). Column E is the time interval between frames (0.001 s from sampling rate of 1000fps).
 
 ## *Predation_data_xyzpts.csv
+Four subfolders in the Analysis folder contain .csv files of damselfly and fruit fly tracked points for each predation attempt generated using DLTdv software: The two DL(Wild) (escape or no escape) subfolders contain tracking results for GF1>+ GF-wildtype flies and the two kir2.1 (escape or no escape) subfolders contain tracking results for GF1>Kir2.1 GF-silenced flies. "*Predation_data_xyzpts.csv" below is a representative file description that also applies to all other files in the four subfolders.
+
+Each column heading denotes the coordinates (X, Y or Z) of the three tracked points in the video ('pt1' = damselfly head centroid, 'Tail' = damselfly tail centroid, 'Fly' = fly centroid). Each row of tracked position values correspond to individual video frames throughout the recorded predation event.
+*Different letters in the filename represent individual predation attempts.
+
+---
 
 # Box Analysis
+This folder contains .csv files with initial fruit fly tracked head and tail points for each predation attempt generated using DLTdv software. The two DL(Wild) (escape or no escape) subfolders contain results for GF1>+ GF-wdildtype flies and the two kir2.1 (escape or no escape) subfolders contain results for GF1>Kir2.1 GF-silenced flies. The following is a representative file description that also applies to all other files in the "Box Analysis" folder.
 
 ## *FlyAxis_data_xyzpts.csv
+Each column heading denotes the coordinates (X, Y or Z) of the two tracked points on the fly's body ('pt1' = fly head and 'pt2' = fly tail). Only the coordinates for the first video frame of the predation event was tracked. 
+*Different letters in the filename represent individual predation attempts.
+
+---
 
 # Figure Data Files
+This folder contains .csv files with the values of all data points plotted in the paper's figures.
 
 ## Damselfly_Fig1B.csv
 Percentages (%) of flies assayed that took off upon stimulus presentation in the FlyPEZ for different looming stimulus speeds for each GF-specific split-GAL4 driver pairing. Column headings denote GF-specific split-GAL4 driver (GF1> or GF2>) and stimulus looming speed (r/v=40 or r/v=10) combination. Row headings denote UAS effector lines (DL wild-type +, Kir2.1;Gal80ts, or Kir2.1) that were crossed to split-GAL4 driver lines denoted in column headings. 
@@ -158,9 +172,9 @@ Distances between damselflies and flies (mm) at time of capture or escape for pr
 ## Damselfly_FigS3C.csv
 Damselfly head widths in millimeters (mm).
 
+---
 
 # FlyPEZ Data
-
 This folder contains files from many flyPEZ experiments, but there are two general file types, `*_dataForVisualization.mat` and `*_manualAnnotations.mat` which are prepended with experiment ID codes specific to the flyPEZ data organization structure. 
 
 ## *_dataForVisualization.mat
@@ -169,6 +183,7 @@ MATLAB structure that results from a flyPEZ data processing pipeline. It contain
 ## *_manualAnnotations.mat
 MATLAB structure that contains manual annotation data from flyPEZ experiments related to takeoff timing. Relevant variables for this project are: frame_of_wing_movement, and frame_of_leg_push, frame_of_take_off. These capture the frame number at which the fly first moved its wings in preparation of takeoff, first started pushing off with its legs, and lifted its legs from the platform, respectively. These variables were used in this project in combination with stimStart from `*_dataForVisualization.mat` to calculate takeoff timing parameters.
 
+---
 
 # Scripts Overview
 
